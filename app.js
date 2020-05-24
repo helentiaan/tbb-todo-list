@@ -27,12 +27,9 @@ function addTodo(event){
     //Button trush mark
     const trushButton = document.createElement('button');
     trushButton.innerHTML = '<i class="fas fa-trash"></i>';
-    trushButton.classList.add("trush-btn");
+    trushButton.classList.add("trash-btn");
     todoDiv.appendChild(trushButton);
     //Append to list
     todoList.appendChild(todoDiv);
-
-
-
-
 }
+ 
