@@ -142,6 +142,6 @@ function removeLocalTodos(todo){
     }
     const todoIndex = todo.children[0].innerText;
     //first para is the start index, second is the length, splice like erase
-    todos.splice(todos.indexOf(todoInput),1);
+    todos.splice(todos.indexOf(todoIndex),1);
     localStorage.setItem('todos', JSON.stringify(todos));
 }
